@@ -2,17 +2,15 @@
 
 <div class="p-5 bg-white border text-center">
   <h1 class="display-4">Documentation for integrations </h1>
-  <p class="lead text-center">We currently support integrations via our Zapier Trigger</p>
 </div>
 
-<!-- <a href="mailto:info@testim.com?cc=help@testim.com?subject=Customer Question&body=Include your questions below.">Contact Us</a> -->
 
 <br/>
 <br/>
 
   <% if @user %>
-  <a href="mailto:info@testim.com?cc=help@testim.com&subject=Customer Question&body=Question from User  <%= @user.id %> account email: <%=@user.email %>  %0D%0A Include your questions below.">Contact Us</a>
+  <a href="mailto:info@example.com?cc=help@example.com&subject=Customer Question&body=Question from UserId: <%= @user.id %> account email: <%=@user.email %>  %0D%0A Include your questions below.">Contact Us</a>
    <% else %>
-    <a href="mailto:info@testim.com?cc=help@testim.com&subject=Customer Question&body=Include your questions below.">Contact Us</a>
+    <a href="mailto:info@example.com?cc=help@example.com&subject=Customer Question&body=Include your questions below.">Contact Us</a>
   <% end %>
 

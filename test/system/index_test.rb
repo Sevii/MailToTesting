@@ -17,6 +17,7 @@ class DocsTest < ApplicationSystemTestCase
     assert href.include?(user.id.to_s)
 
     click_on "Contact Us"
+    take_screenshot
   end
 
 
