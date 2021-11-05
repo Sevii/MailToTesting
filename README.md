@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Repository is a example of testing MailTo links in a Rails app. 
 
-Things you may want to cover:
 
-* Ruby version
+We use Devise for user management and rails system tests. 
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### To run the tests use
+rails test:system
