@@ -11,6 +11,6 @@
   <% if @user %>
   <a href="mailto:info@example.com?cc=help@example.com&subject=Customer Question&body=Question from UserId: <%= @user.id %> account email: <%=@user.email %>  %0D%0A Include your questions below.">Contact Us</a>
    <% else %>
-    <a href="mailto:info@example.com?cc=help@example.com&subject=Customer Question&body=Include your questions below.">Contact Us</a>
+    <a href="mailto:info@example.com,him@example.com,yo@example.com?cc=help@example.com&bcc=admin@example.com&subject=Customer Question&body=Include your questions below.">Contact Us</a>
   <% end %>
 
